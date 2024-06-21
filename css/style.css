@@ -1,0 +1,77 @@
+@import url('/css/cabecalho.css');
+@import url('/css/rodape.css');
+@import url('/css/meus-produtos.css');
+@import url('/css/adicionar-produtos.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --fonte-titulo: "Press Start 2P", system-ui;
+    --fonte-corpo: "IBM Plex Mono", monospace;
+    --roxo: #5D04D9;
+    --azul: #03318C;
+    --branco: #FFFFFF;
+    --preto: #000000;
+}
+
+body {
+    min-width: 1440px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-corpo);
+    font-size: 16px;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
+ol, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.secoes {
+    padding: 60px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+
+/* BARRA DE ROLAGEM */
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #D6D6D6;
+    border-radius: 10px;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 430px) {
+    
+    body {
+        min-width: 430px;
+        gap: 0px;
+    }
+
+    .secoes {
+        padding: 0px;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    ::-webkit-scrollbar {
+        height: 8px;
+    }
+}

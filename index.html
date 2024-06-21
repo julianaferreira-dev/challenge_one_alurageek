@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="icon" href="./assets/ico/logo.ico" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>AluraGeek</title>
+
+  </head>
+
+  <body>
+
+    <header class="cabecalho">
+
+      <img src="/assets/ico/logo.png" alt="Logo" />
+      <h1>AluraGeek</h1>
+
+    </header>
+
+    <main class="secoes">
+
+      <section class="secao__produtos">
+
+        <h2>MEUS PRODUTOS:</h2>
+
+        <div>
+
+          <ul class="secao__produtos__bloco" data-lista>
+          </ul>
+
+        </div>
+
+      </section>
+
+      <section class="secao__adicionar">
+
+        <h2>ADICIONAR PRODUTO:</h2>
+
+        <div class="secao__adicionar__formulario">
+
+            <form data-formulario>
+
+                <fieldset class="secao__adicionar__formulario__campo">
+                    <input 
+                      type="text" 
+                      id="nome" 
+                      name="nome" 
+                      placeholder="Nome..." 
+                      autocomplete="off"
+                      minlength="2" 
+                      maxlength="18"
+                      required
+                      data-nome
+                    >
+                    <div class="erro"></div>
+                </fieldset>
+
+                <fieldset class="secao__adicionar__formulario__campo">
+                    <input 
+                      type="number" 
+                      id="valor" 
+                      step="0.01" 
+                      min="0" 
+                      name="valor" 
+                      placeholder="Valor..."
+                      required
+                      data-valor
+                    >
+                    <div class="erro"></div>
+                </fieldset>
+
+                <fieldset class="secao__adicionar__formulario__campo">
+                    <input 
+                      type="url"  
+                      id="imagem" 
+                      name="imagem" 
+                      placeholder="URL da imagem..."
+                      required
+                      data-imagem 
+                    >
+                    <div class="erro"></div>
+                </fieldset>
+        
+              <div class="secao__adicionar__botoes">
+                  <button class="secao__adicionar__botoes--guardar" 
+                  type="submit"
+                  data-guardar
+                  >
+                    Guardar
+                  </button>
+                  <button class="secao__adicionar__botoes--limpar" 
+                  type="reset"
+                  data-limpar
+                  >
+                    Limpar
+                  </button>
+              </div>
+            </form>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer class="rodape">
+
+      <div class="rodape__logo">
+
+        <img src="/assets/ico/logo.png" alt="Logo" />
+        <h3>AluraGeek</h3>
+
+      </div>
+
+      <div class="rodape__info">
+
+        <span>DESENVOLVIDO POR JULIANA FERREIRA</span>
+        <span class="rodape__info__sub">ALURA LATAM — 2024</span>
+
+      </div>
+
+    </footer>
+
+    <script type="module" src="./js/mostrarProdutos.js"></script> 
+    <script type="module" src="./js/adicionarProdutos.js"></script>
+    <script type="module" src="./js/validarFormulario.js"></script>
+    <script type="module" src="./js/limparFormulario.js"></script>
+ 
+  </body>
+
+</html>

@@ -1,0 +1,161 @@
+section.secao__produtos {
+    width: 678px;
+    height: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.secao__produtos h2 {
+    margin: 0;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.secao__produtos__bloco {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: -12px 10px 5.8px 0px #00000040;
+    gap: 78px 10px;
+    width: auto;
+    height: 620px;
+    overflow-x: auto;    
+}
+
+.secao__produtos__bloco__item {
+    width: 176px;
+    height: 236px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--roxo);
+    border: 3px solid var(--preto);
+    border-radius: 10px;
+    box-shadow: -5px 6px 3.3px 0px #00000040;
+    gap: 10px;
+}
+
+.secao__produtos__bloco__item__imagem {
+    height: 168px;
+    border: 3px solid var(--preto);
+    border-radius: 5px;
+}
+
+.secao__produtos__bloco__item__imagem img {
+    border: 3px solid var(--preto);
+    border-radius: 5px;
+}
+
+.secao__produtos__bloco__item p {
+    margin: 0;
+    color: var(--branco);
+    font-size: 15px;
+    line-height: 19.5px;
+    text-wrap: nowrap;
+}
+
+.secao__produtos__bloco span {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.secao__produtos__bloco__item__vazio {
+    margin-left: 50px;
+    color: #C004D9;
+    font-size: 18px;
+    font-family: var(--fonte-titulo);
+    line-height: 28px;
+}
+
+.secao__produtos__bloco__item__info {
+    margin: 0;
+    margin-bottom: -3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--branco);
+    font-weight: 700;
+    gap: 10px;
+}
+
+.secao__produtos__bloco__item__info p {
+    margin: 0;
+}
+
+.secao__produtos__bloco__item__info img {
+    padding: 2px;
+    cursor: pointer;
+}
+
+
+/* BOTÃO EXCLUI */
+
+.secao__produtos__bloco__item__info button {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+
+/* TRANSIÇÃO DE ÍCONE "LIXEIRA" */
+
+.lixeira__branca {
+    margin-right: -2px;
+    position: relative;
+    opacity: 1;
+}
+
+.lixeira__vermelha {
+    margin-right: -2px;
+    display: none;
+    opacity: 0;
+}
+
+.secao__produtos__bloco__item__info span:hover .lixeira__branca {
+    opacity: 0;
+    display: none;
+}
+
+.secao__produtos__bloco__item__info span:hover .lixeira__vermelha {
+    display: inline;
+    opacity: 1;
+    transform: scale(1.2); 
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 430px) {
+
+    section.secao__produtos {
+        width: auto;
+        padding: 58px 0px 59.06px 5px;
+        order: 2;
+    }
+
+    .secao__produtos__bloco {
+        height: auto;
+        padding: 34px 0px 44px 6px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        box-shadow: none;
+        overflow-y: scroll;
+        gap: 10px;
+    }
+
+    .secao__produtos__bloco__item__vazio {
+        margin-left: 0px;
+    }
+
+    .secao__produtos__bloco::-webkit-scrollbar-track {
+        margin: 5px;
+    }
+}

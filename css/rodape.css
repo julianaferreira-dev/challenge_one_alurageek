@@ -1,0 +1,47 @@
+footer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--roxo);
+    box-shadow: 0px -10px 9.5px 0px #00000040;
+}
+
+.rodape__logo {
+    display: flex;
+    align-items: center;
+}
+
+.rodape__logo h3 {
+    width: 236px;
+    margin: 0;
+    color: var(--branco);
+    font-family: var(--fonte-titulo);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.rodape__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    color: var(--branco);
+    font-weight: 400;
+    gap: 1rem;
+}
+
+.rodape__info__sub {
+    font-weight: 200;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 430px) {
+
+    footer {
+        padding: 32px 28px;
+    }
+}

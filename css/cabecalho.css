@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 0rem;
+    background-color: var(--roxo);
+    border: none;
+    box-shadow: 0rem 0.438rem 0.056rem 0rem #00000040;
+}
+
+header h1 {
+    width: 236px;
+    margin: 0;
+    font-family: var(--fonte-titulo);
+    color: var(--branco);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 430px) {
+
+    header {
+        width: auto;
+        padding: 20px 28px;
+    }
+}
