@@ -1,6 +1,6 @@
 # AluraGeek
 
-Este projeto foi desenvolvido durante a formação Front-End do programa Oracle Next Education + Alura.
+#### Este projeto foi desenvolvido durante a formação Front-End do programa Oracle Next Education + Alura.
 
 Foi criada uma loja virtual onde é possível visualizar os produtos disponíveis, adicionar novos produtos, além de remover produtos existentes. A adição dos produtos é feita através de um formulário com validação para garantir o seu preencimento correto. 
 
