@@ -2,9 +2,9 @@
 
 #### Este projeto foi desenvolvido durante a formação Front-End do programa Oracle Next Education + Alura.
 
-Foi criada uma loja virtual onde é possível visualizar os produtos disponíveis, adicionar novos produtos, além de remover produtos existentes. A adição dos produtos é feita através de um formulário com validação para garantir o seu preencimento correto. 
+Foi criada uma loja virtual onde é possível visualizar os produtos disponíveis, adicionar e remover produtos existentes. A adição dos produtos é feita através de um formulário com validação para garantir o seu preenchimento correto. 
 
-Além disso, possui um design totalmente responsivo garantir que os usuários tenham uma experiência consistente e agradável em qualquer dispositivo.
+Além disso, possui um design totalmente responsivo visando garantir que os usuários tenham uma experiência consistente e agradável em qualquer dispositivo.
 
 ![Interface AluraGeek](https://github.com/julianaferreira-dev/challenge_one_alurageek/assets/96956180/5389852f-6599-4fd7-89c3-a7fc44a2ee62)
 
