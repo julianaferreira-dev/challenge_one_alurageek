@@ -10,7 +10,7 @@ function criaCard(nome, valor, imagem, id) {
         <img class="secao__produtos__bloco__item__imagem" src="${imagem}" />
         <p>${nome}</p>
         <span class="secao__produtos__bloco__item__info">
-            <p>${valor}</p>
+            <p>R$ ${valor}</p>
             <span>
                 <img
                     class="lixeira__branca"
