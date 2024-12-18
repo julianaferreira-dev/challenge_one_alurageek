@@ -20,3 +20,5 @@ Al√©m disso, possui um design totalmente responsivo visando garantir que os usu√
 ### Juliana Ferreira
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julianaferreira-dev/)
+
+![Badge-AluraGeek](https://github.com/user-attachments/assets/9277db01-4bf7-4565-a8d8-26f94d551d2a)
